@@ -1,0 +1,130 @@
+@media (min-width: 320px) and (max-width: 576px) and (orientation: landscape) {
+  .wrap_download {
+        height: 160vh;
+  }
+  .download {
+    overflow: visible !important;
+    height: 123vh !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 1320px) {
+  #img_for_mistake {
+    width: auto;
+    height: 100vh;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+ #fone {
+    width: auto;
+    height: 148vh;
+ }
+ .logo {
+   display: none;
+ }
+ .logo_mobile {
+   display: block;
+ }
+ #img_for_mistake {
+   display: none;
+ }
+ #mobile_mistake_img {
+   display: block;
+   width: 100%;
+   position: absolute;
+   top: -49px;
+}
+ .text_mistake {
+    font-size: 30px;
+    line-height: 35px;
+    grid-column: 1 / 2
+ }
+ .reload, .report_problem {
+   font-size: 18px;
+   line-height: 160%;
+ }
+ .mistake {
+   width: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+ }
+ .reload {
+   position: relative;
+    top: 13px;
+   width: 191px;
+   height: 51px;
+ }
+ .main {
+    width: 280px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 85% 15%;
+    height: 61vh;
+    position: relative;
+    top: 71px;
+ }
+ .welcome {
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0;
+    position: relative;
+    top: -183px;
+    width: 169px;
+    text-align: center;
+    left: 56px;
+  }
+   .wrap_links {
+      width: 280px;
+      position: relative;
+      top: 10px;
+   }
+   .enter_button, .reg_button {
+      width: 280px;
+      margin: 9px 0px;
+   }
+   .wrap_links2 {
+      grid-column: 1;
+      display: grid;
+      width: 280px;
+      grid-template-columns: 1fr;
+   }
+   .enter_but {
+     grid-column: 1 / 2;
+   }
+   .wrap_logo {
+      display: grid;
+      justify-content: center;
+   }
+   .choose_lang {
+      width: 90px;
+      top: -192px;
+      left: -95px;
+   }
+   #flag {
+     left: 17px;
+   }
+   #inside_delete_modileMeta {
+     display: none;
+   }
+   #down_logo {
+     display: none;
+   }
+   #down_mob {
+     display: block;
+     width: 280px !important;
+   }
+   .text_down {
+     font-size: 30px;
+     line-height: 35px;
+     top: 20px;
+   }
+   .download {
+     height: 95vh;
+     width: 280px;
+     overflow: hidden;
+   }
+   .cancel_act {
+     width: 215px;
+     font-size: 18px;
+     line-height: 160%;
+   }
+}
