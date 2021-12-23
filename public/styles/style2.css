@@ -22,6 +22,7 @@
 }
 .text_down {
   font-size: 45px;
+  font-family: 'Inter-Bold';
   line-height: 53px;
   letter-spacing: -0.02em;
   color: #F6DBA8;
@@ -61,7 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #080808;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -77,6 +78,7 @@
 .text_mistake {
   font-size: 45px;
   line-height: 53px;
+  font-family: 'Inter-Bold';
   text-align: center;
   letter-spacing: -0.02em;
   color: #F6DBA8;
@@ -101,6 +103,8 @@
 .report_problem {
   font-size: 20px;
   line-height: 160%;
+  width: 250px;
+  height: 30px;
   color: #FFFFFF;
   flex: none;
   order: 0;
@@ -121,4 +125,147 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+.wrap_enter {
+  width: 100%;
+  height: 100vh;
+  background: #080808;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.enter {
+  position: relative;
+  top: -90px;
+  height: 367px;
+  width: 1290px;
+  display: grid;
+  grid-template-columns: 40% 50% 10%;
+  grid-template-rows: repeat(3, 1fr);
+}
+.title_person {
+  position: relative;
+  top: 32px;
+  font-size: 20px;
+  line-height: 160%;
+  color: white;
+}
+.no_reg {
+  font-size: 20px;
+  line-height: 160%;
+  color: #808080;
+  position: relative;
+  top: -45px;
+}
+.enter_title {
+  font-weight: 800;
+  font-family: 'Inter-Bold';
+  font-size: 50px;
+  line-height: 130%;
+  color: #F6DBA8;
+}
+.title_input {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 160%;
+  color: white;
+}
+.common_inputs {
+  width: 280px;
+  height: 54px;
+  color: white;
+  font-size: 20px;
+  left: 425px;
+  top: 439.08px;
+  border: 2px solid #808080;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+}
+.but_enter{
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 121px;
+  font-size: 20px;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  line-height: 160%;
+  color: #DDDDDD;
+  height: 54px;
+  background: #3F3F3F;
+  border-radius: 10px;
+}
+.req_for {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.lang_title {
+  font-size: 20px;
+  line-height: 160%;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 50px;
+  position: relative;
+  top: 53px;
+  width: 39px;
+  left: 21px;
+}
+.welcome_to {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  height: 230px;
+}
+.form_enter {
+  position: relative;
+  top: -30px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.wrap_persons {
+  width: 630px;
+  height: 150px;
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  position: relative;
+  top: -75px;
+}
+.each_person_for {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #F6DBA8;
+  box-sizing: border-box;
+  border-radius: 100%;
+  height: 80px;
+  cursor: pointer;
+}
+.wrap_title_input {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+}
+.wrap_each_person_for {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+#flag2 {
+  position: relative;
+  cursor: pointer;
+  left: 36px;
+  top: 5px;
 }

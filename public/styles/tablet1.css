@@ -40,8 +40,89 @@
     height: 100vh;
     overflow: hidden;
   }
+  .enter {
+    top: -130px;
+    width: 980px;
+  }
+  .enter_title {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  .title_input, .no_reg {
+    line-height: 32px;
+  }
+  .lang_title {
+    left: -5px;
+    top: 46px;
+  }
+  .form_enter {
+    position: relative;
+    top: -101px;
+  }
+  .no_reg {
+    position: relative;
+    top: -31px;
+    width: 250px;
+    left: 429px;
+  }
+  .wrap_persons {
+    grid-column: 1 / 3;
+    position: relative;
+    top: 24px;
+  }
+  .but_enter {
+    top: 200px;
+    width: 223px;
+  }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .enter {
+    width: 760px;
+    top: -130px;
+  }
+  .enter_title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .title_input, .no_reg, .common_inputs {
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .lang_title {
+    line-height: 28px;
+    font-size: 18px;
+    left: -27px;
+    top: 25px;
+  }
+  .title_person {
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .form_enter {
+    position: relative;
+    top: -119px;
+  }
+  .no_reg {
+    position: relative;
+    top: -25px;
+    width: 211px;
+    left: 552px;
+  }
+  .wrap_persons {
+    grid-column: 1 / 3;
+    position: relative;
+    top: 24px;
+  }
+  .but_enter {
+    top: 222px;
+    width: 354px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+}
+
 @media (min-width: 720px) and (max-width: 992px) {
+
   #fone {
     width: auto;
     height: 100vh;
@@ -78,6 +159,10 @@
     font-size: 18px;
     line-height: 29px;
   }
+  .common_inputs {
+        margin-left: 25px;
+        width: 261px;
+  }
   #down_logo {
     display: none;
   }
@@ -98,6 +183,63 @@
     width: 215px;
     font-size: 18px;
     line-height: 160%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .enter {
+    width: 566px;
+    top: -130px;
+  }
+  #enter_meta {
+    opacity: 0;
+  }
+  .enter_title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .common_inputs {
+        width: 261px;
+        margin-left: 61px;
+  }
+  .lang {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .title_input, .no_reg {
+    line-height: 32px;
+    font-size: 18px;
+  }
+  .lang_title {
+    left: -55px;
+    top: 24px;
+  }
+  .form_enter {
+    position: relative;
+    top: -80px;
+  }
+  .no_reg {
+    position: relative;
+    top: -66px;
+    width: 370px;
+    left: 0px;
+  }
+  .wrap_persons {
+    grid-column: 1 / 3;
+    position: relative;
+    top: 48px;
+  }
+  .title_person {
+        width: 200px;
+  }
+  .wrap_persons {
+        width: 570px;
+  }
+  .wrap_each_person_for {
+        width: 582px;
+  }
+  .but_enter {
+    top: 200px;
+    width: 390px;
   }
 }
 @media (min-width: 576px) and (max-width: 920px) and (orientation: landscape) {

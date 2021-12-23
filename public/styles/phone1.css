@@ -14,6 +14,78 @@
   }
 }
 @media (min-width: 320px) and (max-width: 576px) {
+  .enter {
+    width: 310px;
+    top: 0px;
+  }
+  .wrap_enter {
+    align-items: flex-start;
+    height: 846px;
+  }
+  #enter_meta {
+    opacity: 0;
+    display: none;
+  }
+  .enter_title {
+        font-size: 30px;
+        line-height: 39px;
+        width: 100px;
+        position: relative;
+        top: 98px;
+        left: 124px;
+  }
+  .common_inputs {
+        width: 175px;
+        margin-left: 106px;
+  }
+  .lang {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .title_input, .no_reg {
+    line-height: 32px;
+    font-size: 18px;
+  }
+  .lang_title {
+    left: -78px;
+    top: 24px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .form_enter {
+    position: relative;
+    top: 31px;
+  }
+  .no_reg {
+        position: relative;
+        top: 48px;
+        width: 280px;
+        left: 19px;
+        text-align: center;
+  }
+  .wrap_persons {
+    grid-column: 1 / 3;
+    position: relative;
+    top: 160px;
+    width: 307px;
+  }
+  .title_person {
+        width: 200px;
+        font-size: 18px;
+        line-height: 28px;
+  }
+
+  .wrap_each_person_for {
+        width: 307px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0px 34px;
+  }
+  .but_enter {
+    top: 312px;
+    width: 280px;
+    left: 15px;
+  }
+
  #fone {
     width: auto;
     height: 148vh;
@@ -42,6 +114,9 @@
    font-size: 18px;
    line-height: 160%;
  }
+ .report_problem {
+   width: auto;
+ }
  .mistake {
    width: auto;
     grid-template-columns: 1fr;
@@ -49,7 +124,8 @@
  }
  .reload {
    position: relative;
-    top: 13px;
+   top: 13px;
+   left: 14px;
    width: 191px;
    height: 51px;
  }
@@ -63,14 +139,14 @@
     top: 71px;
  }
  .welcome {
-    font-size: 20px;
-    line-height: 130%;
-    letter-spacing: 0;
-    position: relative;
-    top: -183px;
-    width: 169px;
-    text-align: center;
-    left: 56px;
+   font-size: 20px;
+   line-height: 130%;
+   letter-spacing: 0;
+   position: relative;
+   top: -194px;
+   width: 202px;
+   text-align: center;
+   left: 38px;
   }
    .wrap_links {
       width: 280px;
@@ -127,4 +203,119 @@
      font-size: 18px;
      line-height: 160%;
    }
+
+     .start {
+       width: 320px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: 1fr;
+     }
+     .high_block {
+       width: 320px;
+     }
+     .low_block {
+       display: flex;
+       justify-content: center;
+       align-items: end;
+       position: relative;
+       bottom: 0px;
+       height: 40px;
+       left: -119px;
+       top: 36px;
+     }
+     .choose_location {
+       margin-top: 60px;
+       width: 320px;
+       height: 560px;
+       grid-template-columns: 1fr;
+       grid-template-rows: 30% 70%;
+     }
+     .wrap_titles_location{
+           display: grid;
+           justify-content: center;
+           height: 130px;
+           position: relative;
+           top: 45px;
+           left: 36px;
+           grid-template-columns: repeat(3, 1fr);
+           width: 269px;
+           grid-gap: 0px 28px;
+     }
+     .wrap_map_img > img {
+       width: 252px;
+       height: 341px;
+       position: relative;
+       left: 34px;
+       top: -14px;
+     }
+     .titles_location {
+       width: 50px;
+     }
+     .wrap_all_details {
+        width: 320px;
+        height: 310px;
+        background: #ffffff;
+        border-radius: 15px 0px 15px 15px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        grid-column: 2 / 3;
+        margin-top: 60px;
+        left: -161px;
+     }
+     .all_details {
+       width: 252px;
+     }
+     .wrap_chat {
+       position: absolute;
+       margin-bottom: 0;
+       width: 320px;
+       height: 430px;
+       background: #484848;
+       top: 201px;
+       left: -201px;
+     }
+     .chat_title{
+        font-size: 14px;
+        width: 30px;
+        position: relative;
+        top: 6px;
+     }
+     .share_cont {
+        font-size: 14px;
+        left: -35px;
+        position: relative;
+        top: 5px;
+     }
+     .message {
+        width: 181.48px;
+        height: 74px;
+        display: grid;
+        justify-self: center;
+        align-items: center;
+        font-size: 14px;
+        color: black;
+        line-height: 140%;
+        background: #F0F0F0;
+        border-radius: 10px 10px 10px 0px;
+        padding-left: 20px;
+        padding-right: 15px;
+     }
+     .wrap_chat_input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 318px;
+        height: 50px;
+        background: #FFFFFF;
+        position: relative;
+        top: 235px;
+        grid-column: 1 / 3;
+     }
+     .chat_input, .chat_input::placeholder {
+        font-size: 14px;
+     }
+     .wrap_message {
+        top: 227px;
+     }
 }

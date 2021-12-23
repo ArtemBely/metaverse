@@ -26,7 +26,7 @@ class Main extends React.Component{
                    Заявка на регистрацию</p>
                    </NavLink>
                </div>
-               <p className='choose_lang'><span className='lang'>Lang</span>
+               <p className='choose_lang'><span className='lang'>Язык</span>
                <img src={flag} id='flag'/></p>
          </div>
       </div>

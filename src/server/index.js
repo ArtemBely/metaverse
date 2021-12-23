@@ -17,6 +17,8 @@ import flash from 'connect-flash';
 import regRouter from './routers/registration';
 import downRouter from './routers/download';
 import mistRouter from './routers/mistake';
+import enterRouter from './routers/enter';
+import startRouter from './routers/start';
 
 const app = express();
 const CONNECTION_URI = process.env.MONGODB_URI;
@@ -78,6 +80,8 @@ app.use(passport.session());
 app.use('/registration', regRouter);
 app.use('/download', downRouter);
 app.use('/mistake', mistRouter);
+app.use('/enter', enterRouter);
+app.use('/start', startRouter);
 
 app.get('*', (req, res, next) => {
   const activeRouter = Routes.find((route) => matchPath(req.url, route)) || {};
