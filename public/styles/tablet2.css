@@ -27,6 +27,10 @@
   .start {
     width: 576px;
   }
+  .flags_field {
+    top: 28px;
+    left: 83px;
+  }
   .wrap_all_details {
     margin-top: 60px;
     left: 17px;

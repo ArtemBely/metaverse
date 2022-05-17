@@ -13,6 +13,8 @@ import session from 'express-session';
 import mongoose from 'mongoose';
 import passport from 'passport';
 import flash from 'connect-flash';
+import fs from 'fs';
+import path from 'path';
 
 import regRouter from './routers/registration';
 import downRouter from './routers/download';
@@ -101,9 +103,9 @@ app.get('*', (req, res, next) => {
             <html>
                 <head>
                   <title>collab</title>
-                  <link rel="stylesheet" type="text/css" href="../main.css">
+                  <link rel="stylesheet" type="text/css" href="../../main.css">
                     <meta name="viewport" content="width=device-width, initial-scale=1">
-                      <script src='/bundle.js' defer></script>
+                      <script src='/bundles/bundle.js' defer></script>
                         <script>window.__INITIAL_DATA__= ${serialize(data)}</script>
                             <title>COLLAB</title>
                           </head>
@@ -117,7 +119,7 @@ app.get('*', (req, res, next) => {
         return res.send(html);
   }).catch(next)
 });
-/*
+
 app.use((error, req, res, next) => {
   res.status(error.status);
 
@@ -127,13 +129,13 @@ app.use((error, req, res, next) => {
     stack: error.stack
   });
 });
-*/
 
+/*
 app.use((req, res, next) => {  //<-- заменить если появится непредвиденная ошибка
    const err = new Error ('Noooo');
      err.status = 404;
      next (err);
 });
-
+*/
 
 app.listen(8080, () => {console.log('Server started!')});

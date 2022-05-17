@@ -21,7 +21,7 @@ router.get('/', notLoggedIn, (req, res) => {
               <title>Проверка кода</title>
                    <link rel="stylesheet" type="text/css" href="main.css">
                      <meta name="viewport" content="width=device-width, initial-scale=1">
-                       <script src='bundle.js' defer></script>
+                       <script src='bundles/bundle.js' defer></script>
                        <script>window.__INITIAL_STATE__ = ${serialize(cond)}</script>
                        </head>
                      <body>

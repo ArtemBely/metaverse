@@ -258,6 +258,7 @@
   display: grid;
   grid-template-columns: 20% 80%;
   align-items: center;
+  grid-gap: 33px;
 }
 .wrap_each_person_for {
   display: grid;
@@ -267,5 +268,6 @@
   position: relative;
   cursor: pointer;
   left: 36px;
-  top: 5px;
+  height: 35px;
+  width: 35px;
 }

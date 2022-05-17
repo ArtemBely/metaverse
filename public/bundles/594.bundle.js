@@ -1,0 +1,1 @@
+(self.webpackChunkcollab=self.webpackChunkcollab||[]).push([[594],{594:e=>{"use strict";e.exports=JSON.parse('{"Язык":"Русский","Вход":"Вход"," в Метавселенную":" в Метавселенную","Пароль":"Пароль"}')}}]);

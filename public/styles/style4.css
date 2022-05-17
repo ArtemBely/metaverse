@@ -1,0 +1,41 @@
+.flags_field {
+  width: 60px;
+  display: none;
+  height: 0px;
+  background-color: #fafafa;
+  grid-template-rows: repeat(3, 1fr);
+  position: absolute;
+  top: -117px;
+  left: 90px;
+  padding: 4px 0px;
+  border-radius: 7px;
+  transition: 0.4s;
+}
+.flags_field2 {
+  width: 60px;
+  display: none;
+  height: 0px;
+  background-color: #fafafa;
+  grid-template-rows: repeat(3, 1fr);
+  position: absolute;
+  top: 24px;
+  left: 88px;
+  padding: 4px 0px;
+  border-radius: 7px;
+  transition: 0.4s;
+}
+.wrap_flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      margin: 0;
+}
+.showFlag {
+  display: grid !important;
+  height: 81px !important;
+  transition: 0.4s;
+}
+.dif_flags {
+  width: 28px;
+  cursor: pointer;
+}

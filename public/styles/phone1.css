@@ -18,6 +18,10 @@
     width: 310px;
     top: 0px;
   }
+  .flags_field {
+    top: 28px;
+    left: 74px;
+  }
   .wrap_enter {
     align-items: flex-start;
     height: 846px;

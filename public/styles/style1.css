@@ -97,6 +97,8 @@ body {
   font-size: 20px;
   line-height: 160%;
   color: #FFFFFF;
+  position: relative;
+  top: 6px;
 }
 .choose_lang {
   width: 110px;
@@ -111,6 +113,9 @@ body {
     position: relative;
     top: 6px;
     left: 27px;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
 }
 .welcome {
   font-size: 45px;

@@ -7,7 +7,7 @@ var browserConfig = {
       entry: ['babel-regenerator-runtime', './src/browser/index.js'],
       output: {
         path: path.resolve(__dirname, 'public'),
-        filename: 'bundle.js',
+        filename: 'bundles/bundle.js',
         publicPath: '/'
       },
       mode: 'production',
@@ -60,7 +60,7 @@ var serverConfig = {
   externals: [nodeExternals()],
   output: {
     path: __dirname,
-    filename: 'server.js',
+    filename: 'serverDirection/server.js',
     publicPath: '/'
   },
   mode: 'production',

@@ -127,6 +127,10 @@
     width: auto;
     height: 100vh;
   }
+  .flags_field {
+    top: 28px;
+    left: 83px;
+  }
   .main {
     width: 720px;
   }
